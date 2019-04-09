@@ -15,4 +15,4 @@ def deps do
 end
 ```
 
-Docs and samples will be added
+Docs: https://hexdocs.pm/ladder

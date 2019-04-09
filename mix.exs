@@ -1,7 +1,7 @@
 defmodule Ladder.MixProject do
   use Mix.Project
 
-  @repo_url "https://github.com/anuragdalia/Ladder.git"
+  @repo_url "https://github.com/anuragdalia/Ladder"
 
   def project do
     [
@@ -18,7 +18,7 @@ defmodule Ladder.MixProject do
 
       # Package
       package: package(),
-      description: "A simple odm for mongodb written in elixir"
+      description: "A simple task manager"
     ]
   end
 
