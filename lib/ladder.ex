@@ -68,7 +68,7 @@ defmodule Ladder do
     )
   end
 
-  def special_apply(task_tuple, previous_response) do
+  defp special_apply(task_tuple, previous_response) do
     cond do
       task_tuple == nil -> {:unknown_job, false}
       tuple_size(task_tuple) in [3, 4] ->
